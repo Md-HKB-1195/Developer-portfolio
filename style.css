@@ -4,58 +4,38 @@ body{
 }
 
 
-.title{
-    height: 355px;
+h1{
+    font-size: 50px;
 }
 
-
-.first-sec{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-
-.Header{
-    font-size: 60px;
-    margin-left: 30%;
-    margin-top: 0%;
-}
-
-.Head-name{
+.orange-color{
     color: orange;
 }
 
-.intro{
-    font-size: 40px;
-}
-
-.about-me{
- font-size: 30px;
- word-spacing: 10px;
+section{
+    display: flex;
 }
 
 .half-width{
     width: 45%;
-    float: left;
-    margin-left: 5%;
-    margin-top: 0;    
+    padding-left: 5%;
 }
 
-.half-width img {
-    height: 500px;
-    width: 500px;
-    border:rgb(238, 7, 7) 5px solid;
-    border-radius: 750px;
-    margin-top: 80px;
+.half-width img{
+    width: 80%;
 }
 
-.hire-me{
-    color: white;
-    border: 3px solid black;
-    padding: 0px 30px;
-    background-image: linear-gradient(tomato, salmon);
-    font-weight: bolder;
+.link-button{
     text-decoration: none;
-    border-radius: 5px;
     font-size: 30px;
-    word-spacing: 4px;
+    font-weight: 800;
+    border: black 5px solid;
+    border-radius: 10px;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 0px 40px;
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
