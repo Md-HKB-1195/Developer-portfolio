@@ -1,0 +1,61 @@
+body{
+    font-family: 'MonteCarlo', cursive;
+    margin: 0;
+}
+
+
+.title{
+    height: 355px;
+}
+
+
+.first-sec{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.Header{
+    font-size: 60px;
+    margin-left: 30%;
+    margin-top: 0%;
+}
+
+.Head-name{
+    color: orange;
+}
+
+.intro{
+    font-size: 40px;
+}
+
+.about-me{
+ font-size: 30px;
+ word-spacing: 10px;
+}
+
+.half-width{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 0;    
+}
+
+.half-width img {
+    height: 500px;
+    width: 500px;
+    border:rgb(238, 7, 7) 5px solid;
+    border-radius: 750px;
+    margin-top: 80px;
+}
+
+.hire-me{
+    color: white;
+    border: 3px solid black;
+    padding: 0px 30px;
+    background-image: linear-gradient(tomato, salmon);
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 30px;
+    word-spacing: 4px;
+}
